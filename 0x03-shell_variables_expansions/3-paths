@@ -1,2 +1,2 @@
-#!/bin/bash 
-echo $PATCH | tr '=' '\n' | wc -l
+#!/bin/bash
+echo $PATH | tr ':' '\n' | wc -l
